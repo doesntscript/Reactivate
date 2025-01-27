@@ -1,0 +1,20 @@
+
+
+Exibindo Valores Dinâmicos 
+
+const names = ['DevGui', 'GuiDeveloper'];
+
+
+const Post = () => {
+
+   const chosenName = Math.random() > 0.5 ? names[0] : names[1] 
+
+  return (
+    <>
+    <p> {chosenName} </p> = > Valor Dinâmico. . .
+    <p> React.Js is Awesome! </p>
+    </>
+)
+}
+
+export default Post;
