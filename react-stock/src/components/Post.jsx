@@ -10,7 +10,7 @@ const Post = () => {
     useEffect (() => {
         const interval = setInterval(() => { 
         setChosenName( prevName => (prevName === names[0] ? names[1] : names[0]));
-    }, 10000); 
+    }, 1000); 
 
     return () => clearInterval(interval);
 

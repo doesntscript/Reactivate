@@ -1,6 +1,6 @@
+Reusing Compnents
+
 import Post from "./components/Post";
-
-
 
 function App() {
   
