@@ -7,11 +7,8 @@ function App() {
   return (
     <>
     <h1>
-     <Post />
-     <Post />
-     <Post />
-     <Post />
-     
+     <Post author="DevGui" body="React.Js is Awesome!" />
+     <Post author="GuiDeveloper" body ="Check out the full course!" />
     </h1>
     </>
   )

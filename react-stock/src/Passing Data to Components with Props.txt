@@ -1,0 +1,23 @@
+Passando Dados para Componentes com Props
+
+App.jsx
+
+<h1>
+     <Post author="DevGui" body="React.Js is Awesome!" />
+     <Post author="GuiDeveloper" body ="Check out the full course!" />
+</h1>
+
+Post.jsx
+
+const Post = (props) => {
+
+  return (
+    <>
+
+    <p> {props.author} </p>
+    <p> {props.body} </p>
+    </>
+)
+};
+
+export default Post;
