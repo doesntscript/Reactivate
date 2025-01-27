@@ -1,3 +1,4 @@
+import Post from "./components/Post";
 
 
 
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
     <h1>
-      Hello World! 
+     <Post />
     </h1>
     </>
   )
